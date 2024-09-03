@@ -1,0 +1,57 @@
+.dark{
+  color: white;
+}
+
+/* Light Mode Styles */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.text-dark {
+  color: #212529 !important;
+}
+
+/* Dark Mode Styles */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+.text-light {
+  color: #f8f9fa !important;
+}
+
+/* Optional: Ensure text and background contrast well */
+body.bg-dark {
+  background-color: #121212;
+}
+
+body.bg-dark {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+body.text-light {
+  color: #eaeaea;
+}
+
+/* Default styles for the input field */
+.form-control {
+  transition: background-color 0.3s ease;
+}
+
+/* Styles when the input field is focused */
+.form-control:focus {
+  background-color: #f0f0f0; /* Light grey background */
+  outline: none; /* Remove default outline */
+  border-color: #007bff; /* Optional: change border color on focus */
+}
+
+/* Header.css or App.css */
+.bg-dark-blue {
+  background-color: #082440; /* Dark blue color */
+  color: #ffffff; /* Text color for better contrast */
+}
+
+/* Ensure text is visible on dark blue */
+.navbar-dark .navbar-brand,
+.navbar-dark .form-check-label {
+  color: #ffffff;
+}
